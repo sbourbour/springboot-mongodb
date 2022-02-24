@@ -1,0 +1,12 @@
+spring:
+   application:
+      name: mongobooks
+   data.mongodb:
+      uri: mongodb+srv://myuser:mypassword@cluster0.p0tso.mongodb.net
+      database: books
+
+server:
+   port: 8096
+   servlet.contextPath: /mongobooks
+
+      
