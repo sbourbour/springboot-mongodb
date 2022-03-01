@@ -1,5 +1,6 @@
 package com.shahriar.mongodbspringboot.model;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
@@ -14,7 +15,9 @@ public class Author {
 	private String firstName;
 	private String lastName;
 	private String middleName;
+	@JsonFormat(pattern="dd-MON-yyyy")
 	private String birthDate;
+	@JsonFormat(pattern="dd-MON-yyyy")
 	private String deceasedDate;
 	private String gender;
 	
