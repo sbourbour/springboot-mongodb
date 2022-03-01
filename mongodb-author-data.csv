@@ -1,0 +1,4 @@
+_id, firstName, lastName, birthDate, deceasedDate, gender 
+62152d850a0b4db1fc12b4fd, "Alexandre", "Dumas", "24-JUL-1802", "05-DEC-1870", "M"
+62152de20a0b4db1fc12b4fe, "Jules", "Verne", "08-FEB-1828", "24-MAR-1905", "M"
+62152ee20a0b4db1fc12b4ff, "Sheila", "Canby", "", "", "F"

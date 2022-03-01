@@ -1,0 +1,4 @@
+_id, title, title2, isbn, price, currency, format, author_id
+11111, "The Three Musketeers", "", "1234567", "9.99", "USD", "Paperback", 62152d850a0b4db1fc12b4fd
+11112, "Around the World in 80 days", "", "1234568", "9.99", "USD", "Paperback", 62152de20a0b4db1fc12b4fe
+11113, "Persian Painting", "", "1234569", "9.99", "USD", "Paperback", 62152ee20a0b4db1fc12b4ff
